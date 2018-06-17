@@ -1,0 +1,29 @@
+/*
+Theme Name: Wholegrain Developer Backend Test
+Author: Lauren Clark
+Description: Create a new WordPress theme. There will be no front-end to the theme (so need to create any templates). It’s only purpose is to expose data that can be accessed via AJAX. Register a custom post type called Recipes with support for - Title (string), WYWISYG, Category (can be the default WordPress post category taxonomy),Ingredients (custom fields, wysiwyg)
+Expose the Recipes post type in a manner that can be consumed by an external application
+The title, the content, the ingredients, and the permalink must be exposed
+To demonstrate additional knowledge, provide code that consumes the exposed recipes.
+Version: 1.0
+Text Domain: wholegrain
+*/
+
+body{
+    font-size: 20px;
+}
+
+button{
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 2em;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: all ease-in-out .2s;
+    background: #49a5ff;  
+}
